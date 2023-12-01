@@ -635,5 +635,5 @@ class InputController {
 window["myApp"].setupInputController();
 
 var script = document.createElement('script');
-script.src = 'https://cdn.jsdelivr.net/gh/Anuluxer/filehostthingy@main/n64wasm.js'
+script.src = 'https://cdn.jsdelivr.net/gh/Anuluxer/filehostthingy@latest/n64wasm.js'
 document.getElementsByTagName('head')[0].appendChild(script);
