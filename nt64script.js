@@ -239,7 +239,7 @@ class MyClass {
     async downloadFile(url) {
         return new Promise(function (resolve, reject) {
             var oReq = new XMLHttpRequest();
-            oReq.open("GET", url, true);
+            oReq.open("GET", "https://cdn.jsdelivr.net/gh/Anuluxer/filehostthingy@main/" + url, true);
             oReq.responseType = "arraybuffer";
             oReq.onload = function (oEvent) {
                 var arrayBuffer = oReq.response;
