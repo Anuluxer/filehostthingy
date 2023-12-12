@@ -1,4 +1,4 @@
-var UPDATEVER = 1.0
+var UPDATEVER = 2.0
 if (UPDATEVER > CURRVER) {
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
